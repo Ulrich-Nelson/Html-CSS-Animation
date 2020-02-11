@@ -1,0 +1,109 @@
+body {
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 30vh;
+    background: #000;
+}
+
+.domaine {
+    font-family: 'Pinyon Script', cursive;
+    margin-right: 0;
+}
+
+h1 {
+    margin: 0;
+    padding: 0;
+    color: #111;
+    font-size: 8em;
+}
+
+.domaine span {
+    display: table-cell;
+    margin: 0;
+    padding: 0;
+    animation: animate 2s linear infinite;
+}
+
+h1 span:nth-child(1) {
+    animation-delay: 0s;
+}
+
+h1 span:nth-child(2) {
+    animation-delay: 0.25s;
+}
+
+h1 span:nth-child(3) {
+    animation-delay: 0.50s;
+}
+
+h1 span:nth-child(4) {
+    animation-delay: 0.75s;
+}
+
+h1 span:nth-child(5) {
+    animation-delay: 1s;
+}
+
+h1 span:nth-child(6) {
+    animation-delay: 1.25s;
+}
+
+h1 span:nth-child(7) {
+    animation-delay: 1.50s;
+}
+
+h1 span:nth-child(8) {
+    animation-delay: 1.75s;
+}
+
+h1 span:nth-child(9) {
+    animation-delay: 2s;
+}
+
+h1 span:nth-child(10) {
+    animation-delay: 2.25s;
+}
+
+h1 span:nth-child(11) {
+    animation-delay: 2.50s;
+}
+
+h1 span:nth-child(12) {
+    animation-delay: 2.75s;
+}
+
+h1 span:nth-child(13) {
+    animation-delay: 3s;
+}
+
+h1 span:nth-child(14) {
+    animation-delay: 3.25s;
+}
+
+h1 span:nth-child(15) {
+    animation-delay: 3.50s;
+}
+
+h1 span:nth-child(16) {
+    animation-delay: 3.75s;
+}
+
+h1 span:nth-child(17) {
+    animation-delay: 4s;
+}
+
+@keyframes animate {
+    0%, 100% {
+        color: #fff;
+        filter: blur(2px);
+        text-shadow: 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 30px #00b3ff, 0 0 50px #00b3ff, 0 0 70px #00b3ff, 0 0 110px #00b3ff, 0 0 10px #00b3ff, 0 0 15px #00b3ff, 0 0 10px #00b3ff, 0 0 20px #00b3ff, 0 0 25px #00b3ff, 0 0 30px #00b3ff, 0 0 360px #00b3ff, 0 0 400px #00b3ff, 0 0 410px #00b3ff, 0 0 440px #00b3ff, 0 0 490px #00b3ff;
+    }
+    5%, 95% {
+        color: #fff;
+        filter: blur(0px);
+        text-shadow: none;
+    }
+}
